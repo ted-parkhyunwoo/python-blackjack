@@ -30,7 +30,7 @@ def score_display(option):
     status_table = {'Name': ['Dealer', "Player"],
                    'Cards': [(f"*   {desc('dealer', 'cards')[1]}"), ('  '.join(desc('player', 'cards')))],
                    'Score': [(f"[* , {desc('dealer', 'score')[1]}]"), desc('player', 'score')],                  
-                   'Current Score': [(f'at least {desc('dealer', 'score')[1]}'), sum(desc('player', 'score'))],
+                   'Current Score': [(f"at least {desc('dealer', 'score')[1]}"), sum(desc('player', 'score'))],
                    }
 
 
